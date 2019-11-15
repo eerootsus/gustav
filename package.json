@@ -1,0 +1,25 @@
+{
+  "name": "gustav",
+  "version": "1.0.0",
+  "description": "A personal journey into creating a Docker orchestrator",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eerootsus/gustav.git"
+  },
+  "keywords": [
+    "typescript",
+    "docker",
+    "orchestration",
+    "nodejs"
+  ],
+  "author": "Eero Otsus <eero.otsus@pipedrive.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/eerootsus/gustav/issues"
+  },
+  "homepage": "https://github.com/eerootsus/gustav#readme"
+}
