@@ -3,7 +3,7 @@
 echo -e "\033[1mGUSTAV-SERVER\033[0m Waiting for Docker daemon to spin up..."
 until docker ps 2>/dev/null
 do
-    sleep 1
+    sleep .1
 done
 
 echo -e "\033[1mGUSTAV-SERVER\033[0m  Docker daemon is up..."
