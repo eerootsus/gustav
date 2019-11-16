@@ -41,3 +41,6 @@ This project is named in honour of Gustav Ernesaks - one of the most respected a
 * Add an argument to `run.sh` to mount the host Docker socket - hardcore mode !!!
 * During the build already pull the node container for faster startup
 * Chicken or egg - which should be the foreground process? The manager service or the docker daemon? Actually both.
+* Run Node.js module installation during build. Sort of the same thing as pulling required images. Intermediate container?
+* Detect daemon host/IP - currently hardcoded to `172.17.0.2`
+* Could support configuring stuff via environment variables (eg. ports etc.)
